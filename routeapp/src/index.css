@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #4F46E5, #9C66FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: left;
+} 
+a.gradient-text{
+  padding: 10px;
+}
+.imglogo{
+  height: 80px;
+  width: 80px;
+}
+
+.hm-pantry-section{
+  background-image:url(../public/images/pantry-section-background.png);
+}

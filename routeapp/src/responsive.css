@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1800px) {
+    .container {max-width: 1140px;}
+    .your_shopping_bag-box {
+        right: -120px;
+        margin-top: 15px;
+        max-width: 320px;
+    }
+    .your_shopping_bag-box ul.shopping_detail li.shopping_detail_iteam .shopping_detail_iteam--img{
+        max-width: 80px;
+        height: 80px;
+    }
+    .your_shopping_bag-box ul.shopping_detail li.shopping_detail_iteam .shopping_detail_iteam--col{
+        margin-left: -80px;
+        padding-left: 90px;
+    }
+}
